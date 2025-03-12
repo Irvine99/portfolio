@@ -1,8 +1,8 @@
-<div class="absolute top-[920px] md:top-[1000px] max-w-[1440px] mx-auto">
+<div class="absolute top-[950px] md:top-[1000px] lg:top-[1050px] xl:top-[1100px] max-w-[1440px] mx-auto">
     <div class="">
         <div class="flex md:flex-row flex-col ">
             <div class="flex flex-col w-[80%] md:w-[55%] xl:w-[35%]"> ">
-                <div class="text-white text-[60px] font-bold">A propos</div>
+                <div class="text-white  text-[50px] md:text-[60px] font-bold">A propos</div>
                 <div class="text-white font-normal mt-[50px]">Je suis une personne passionnée de développement web front-end, possédant des compétences solides en HTML, CSS, JavaScript et Tailwind CSS. Avec une expérience pratique dans la création de sites web modernes et esthétiques, je suis fier de dire que je suis un développeur front-end compétent qui cherche toujours l'évolutions.</div>
                 <div class="text-white font-normal mt-[50px]">Je suis capable de structurer les pages web de manière efficace et conviviale pour les utilisateurs. De plus, mes compétences en CSS me permettent de créer des designs esthétiques et modernes pour les sites web, ce qui est crucial pour offrir une expérience utilisateur optimale.</div>
                 <?php
