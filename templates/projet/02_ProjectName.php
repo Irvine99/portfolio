@@ -4,6 +4,6 @@
 </div>
 
 <div class="flex container mx-auto justify-center mt-[50px] flex-wrap lg:flex-nowrap">
-    <img src="../../src/png/laptop.png" alt="" class="w-full hidden lg:block lg:h-[448px] md:h-[224px] lg:w-[804px] md:w-[402px] h-auto">
+    <img src="../../src/png/laptop.png" alt="" class="w-full hidden md:block lg:h-[448px] md:h-[224px] lg:w-[804px] md:w-[402px] h-auto">
     <img src="../../src/png/phone.png" alt="" class=" lg:h-[448px] md:h-[224px] w-auto lg:w-[auto] ">
 </div>

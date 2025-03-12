@@ -1,4 +1,4 @@
-<div class="flex flex-col justify-center items-center mt-[100px] md:mt-[0px] lg:mt-[10px]">
+<div class="flex flex-col justify-center items-center mt-[100px] md:mt-[50px] lg:mt-[50px]">
     <div class="text-[#10B52E]">DEPUIS 2024</div>
     <div class="text-[60px] font-bold text-white">Projets</div>
 </div>
@@ -14,7 +14,7 @@
 
     <div class="mt-[50px] flex flex-col lg:flex-row lg:items-center justify-center items-center xl:mx-[100px] lg:mx-[50px] gap-12 lg:gap-20 flex-wrap">
         <?php foreach ($projects as $project): ?>
-            <div class="flex xl:w-[40%] lg:w-[45%] md:h-[200px] xl:h-[250px] md:w-[55%] w-[75%] mb-8 lg:mb-0">
+            <div class="flex xl:w-[40%] lg:w-[45%] md:h-[200px] xl:h-[250px] md:w-[75%] w-[75%] mb-8 lg:mb-0">
                 <div class="flex flex-col h-auto justify-between w-[50%]">
                     <div class="text-[#10B52E] xl:text-[30px] lg:text-[20px] md:text-[18px]"><?php echo $project['name']; ?></div>
                     <div class="text-white text-[20px] xl:text-[40px] lg:text-[30px] md:text-[30px] leading-8 md:leading-10 lg:leading-8 xl:leading-10">

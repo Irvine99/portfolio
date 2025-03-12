@@ -1,4 +1,4 @@
-<div class="mx-[25px] ">
+<div class="mx-[25px] md:mx-[50px] ">
     <div class="mx-auto mt-12 flex justify-center flex-wrap lg:flex-nowrap lg:mx-[50px] gap-8">
         <div class="flex flex-col w-full lg:w-1/2 xl:w-1/3">
             <div class="text-[#10B52E] font-bold text-[35px]">Brief</div>
@@ -39,7 +39,7 @@
 
     <!--  -->
 
-    <div class="flex justify-center mt-12">
+    <div class="flex justify-center mt-[50px] mt-12">
         <button class="bg-[#10B52E] rounded-full px-[42px] py-[14px] hover:bg-[#68DF7E] transform duration-800 ease-in-out">Voir le site</button>
     </div>
 
