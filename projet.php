@@ -3,12 +3,12 @@
 <body class="custom-gradient reset">
     <div class="max-w-[1440px] w-full mx-auto">
         <?php include './templates/projet/background.php' ?>
-        <div class="relative min-h-[879px] ml-[155px] z-10">
-            <?php include './templates/projet/sectionOne.php' ?>
-            <?php include './templates/projet/sectionTwo.php' ?>
-            <?php include './templates/projet/sectionThree.php' ?>
-            <?php include './templates/projet/sectionFour.php' ?>
-            <?php include './templates/projet/sectionFive.php' ?>
+        <div class="relative min-h-[879px] lg:ml-[155px] z-10">
+            <?php include './templates/projet/01_Logo.php' ?>
+            <?php include './templates/projet/02_ProjectName.php' ?>
+            <?php include './templates/projet/03_Description.php' ?>
+            <?php include './templates/projet/04_Projet.php' ?>
+            <?php include './templates/projet/05_Copyright.php' ?>
            
         </div>
     </div>
