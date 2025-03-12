@@ -1,0 +1,45 @@
+<svg width="617" height="1466" viewBox="0 0 617 1466" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_d_0_1)">
+<circle cx="46.5" cy="46.5" r="11.5" fill="#151A29"/>
+<circle cx="46.5" cy="46.5" r="9.5" stroke="url(#paint0_linear_0_1)" stroke-width="4"/>
+</g>
+<g filter="url(#filter1_d_0_1)">
+<circle cx="570.5" cy="1368.5" r="11.5" fill="#151A29"/>
+<circle cx="570.5" cy="1368.5" r="9.5" stroke="url(#paint1_linear_0_1)" stroke-width="4"/>
+</g>
+<path d="M46 57.5V242C46.6667 265 63.4 311 125 311C186.6 311 385.333 311 477 311C508 307.667 570 317.2 570 382C570 446.8 570 1167.67 570 1464" stroke="url(#paint2_linear_0_1)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<defs>
+<filter id="filter0_d_0_1" x="0" y="0" width="93" height="93" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset/>
+<feGaussianBlur stdDeviation="17.5"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.113725 0 0 0 0 0.733333 0 0 0 0 0.227451 0 0 0 1 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_0_1"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_0_1" result="shape"/>
+</filter>
+<filter id="filter1_d_0_1" x="524" y="1322" width="93" height="93" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset/>
+<feGaussianBlur stdDeviation="17.5"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.113725 0 0 0 0 0.733333 0 0 0 0 0.227451 0 0 0 1 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_0_1"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_0_1" result="shape"/>
+</filter>
+<linearGradient id="paint0_linear_0_1" x1="37.0294" y1="55.4632" x2="60.0294" y2="38.5515" gradientUnits="userSpaceOnUse">
+<stop stop-color="#68DF7E"/>
+<stop offset="1" stop-color="#10B52E"/>
+</linearGradient>
+<linearGradient id="paint1_linear_0_1" x1="561.029" y1="1377.46" x2="584.029" y2="1360.55" gradientUnits="userSpaceOnUse">
+<stop stop-color="#68DF7E"/>
+<stop offset="1" stop-color="#10B52E"/>
+</linearGradient>
+<linearGradient id="paint2_linear_0_1" x1="463.5" y1="1053" x2="650" y2="1351.5" gradientUnits="userSpaceOnUse">
+<stop stop-color="#21BD3E"/>
+<stop offset="1" stop-color="#21BD3E" stop-opacity="0"/>
+</linearGradient>
+</defs>
+</svg>

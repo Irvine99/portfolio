@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+.pushPhoto {
+    margin-left: 50px!important;
+   }
+   
+.sizePlanet {
+       height: 1000px;
+       width: 300px;
+       margin-top: 1100px;
+       
+   }
+   
+.placePhoto {
+       margin-left: 60px;
+   }
+   
+/*  */
+
