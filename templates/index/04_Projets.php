@@ -1,4 +1,4 @@
-<div class="flex flex-col justify-center items-center mt-[800px] md:mt-[0px] lg:mt-[10px]">
+<div class="flex flex-col justify-center items-center mt-[600px] md:mt-[0px] lg:mt-[10px]">
     <div class="text-[#10B52E]">DEPUIS 2024</div>
     <div class="text-[60px] font-bold text-white">Projets</div>
 </div>

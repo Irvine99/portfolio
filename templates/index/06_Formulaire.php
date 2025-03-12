@@ -6,26 +6,26 @@
 </div>
 <!-- formulaire -->
 <!-- Formulaire HTML -->
-<div class=" flex flex-col mx-[50px]  gap-3 mt-[50px] mw-auto">
+<div class=" flex flex-col mx-[50px] xl:mx-[300px]  gap-3 mt-[50px] mw-auto">
     <div class="flex flex-col">
         <div class="flex flex-col md:flex-row gap-4">
-            <div class="flex-col">
+            <div class="flex-col w-full">
                 <div class="text-white">Prénom *</div>
-                <input type="text" id="first_name" class="bg-[#313344] rounded-full w-full h-[48px] px-2 text-white placeholder-white mt-[1px] mb-[5px]" placeholder="">
+                <input type="text" id="first_name" class="bg-[#313344] rounded-full w-full   h-[48px] px-2 text-white placeholder-white mt-[1px] mb-[5px]" placeholder="">
             </div>
-            <div class="flex-col">
+            <div class="flex-col w-full">
                 <div class="text-white">Nom *</div>
-                <input type="text" id="last_name" class="bg-[#313344] rounded-full w-full h-[48px] px-2 mt-[1px] mb-[5px] text-white placeholder-white" placeholder="">
+                <input type="text" id="last_name" class="bg-[#313344] rounded-full w-full   h-[48px] px-2 mt-[1px] mb-[5px] text-white placeholder-white" placeholder="">
             </div>
         </div>
     </div>
-    <div class="flex flex-col">
+    <div class="flex flex-col w-full">
         <div class="flex gap-4 md:flex-row flex-col">
-            <div class="flex-col ">
+            <div class="flex-col w-full ">
                 <div class="text-white">Email *</div>
                 <input type="email" id="email" class="bg-[#313344] rounded-full w-full h-[48px] px-2 mt-[1px] mb-[5px] text-white placeholder-white" placeholder="">
             </div>
-            <div class="flex-col">
+            <div class="flex-col w-full">
                 <div class="text-white">Téléphone *</div>
                 <input type="tel" id="phone" class="bg-[#313344] rounded-full w-full h-[48px] px-2 mt-[1px] mb-[5px] text-white placeholder-white" placeholder="">
             </div>
@@ -34,7 +34,7 @@
     <div>
         <div class="text-white font-bold">Votre message</div>
         <div class="flex w-full">
-            <textarea id="message" class="bg-[#313344] rounded-[20px] pl-4 h-[152px] w-full md:w-[512px] md:h-[152px] text-white" placeholder=""></textarea>
+            <textarea id="message" class="bg-[#313344] rounded-[20px] pl-4 h-[152px] w-full  md:h-[152px] lg:h-[310px] text-white" placeholder=""></textarea>
         </div>
     </div>
     <div class="flex justify-center mt-[50px] w-full">

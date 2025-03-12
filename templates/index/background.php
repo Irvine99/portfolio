@@ -18,7 +18,7 @@
     </div>
     <!-- GreenStar placement -->
     <div class="absolute top-0 left-0 ml-[280px] mt-[3600px] lg:mt-[3493px] md:mt-[3793px] ">
-        <img src="./src/svg/greenDot.svg" alt="" class="md:w-[54px] md:h-[54px] w-[27px] h-[27px]">
+        <img src="./src/svg/greenDot.svg" alt="" class="lg:w-[54px] lg:h-[54px] md:w-[42px] md:h-[42px] w-[27px] h-[27px]">
     </div>
     <div class="absolute top-0 left-0 ml-[1106px] mt-[3854px] ">
         <img src="./src/svg/greenDot.svg" alt="" class="w-[17px] h-[17px]">
@@ -33,7 +33,7 @@
         <img src="./src/svg/horizontalDot.svg" alt="" class="w-[232px] h-[363px]">
     </div>
 
-    <div class="absolute top-0 left-0 ml-[115px]  mt-[4000px] lg:mt-[3716px] md:mt-[4016px] ">
+    <div class="absolute top-0 left-0 ml-[115px]  mt-[4000px] lg:mt-[4316px] xl:mt-[4516px] md:mt-[4016px] ">
         <img src="./src/svg/horizontalDot.svg" alt="" class="w-[116px] h-[181px] md:w-[232px] md:h-[363px] rotate-45 -translate-x-[160px]">
     </div>
 </div>
