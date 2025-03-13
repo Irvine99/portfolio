@@ -14,7 +14,7 @@
     <div class="absolute lg:top-[444px] top-[320px] lg:-left-[77px] left-0 overflow-hidden">
         <img src="./src/svg/horizontalDot.svg" alt="" class="lg:h-[363px] lg:w-[232px] w-[150px] h-[300px]">
     </div>
-    <div class="absolute top-0 left-0 ml-[115px] mt-[2895px] lg:mt-[3095px] opacity-50 lg:opacity-100 "> ">
+    <div class="absolute top-0 left-0 ml-[115px] mt-[2895px] lg:mt-[2795px] xl:mt-[3095px] opacity-50 lg:opacity-100 "> ">
         <img src="./src/svg/horizontalDot.svg" alt="" class="lg:w-[232px] lg:h-[363px] w-[200px] h-[300px] rotate-45 -translate-x-[160px]">
     </div>
     <!-- greenCircle placement -->
