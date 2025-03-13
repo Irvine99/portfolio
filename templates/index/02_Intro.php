@@ -4,7 +4,7 @@
     <div class="  font-bold">Stanislas</div>
 </div>
 <div class="mt-[70px] md:text-[18px] lg:text-[20px] xl:text-[24px] max-w-[1440px] mx-auto mr-[30px]">
-    <h2 class="text-white font-bold">Développeur Front-End <span class="font-light text-[#8E8E8E]">basé en</span> Ardenne</h2>
+    <h2 class="text-white font-bold">Développeur Front-End <span class="font-light text-[#8E8E8E]">basé en</span> Ardennes</h2>
     <h2 class="text-white font-bold">Formation Administrateur Réseaux et Systèmes <br> et Bases de Données
         <span class="font-light text-white italic text-[14px] ">: pôle formation UIMM Charleville-Mézières</span>
     </h2>
