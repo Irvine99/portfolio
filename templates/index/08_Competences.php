@@ -56,7 +56,7 @@
 
           competencesASRBD.forEach(competence => {
             document.write(`
-              <li class="flex w-[45%] md:w-[30%] bg-gradient-to-r from-green-400 via-green-500 to-green-600 p-2 bg-white rounded-lg shadow-md">
+              <li class="flex lg:w-[20%] w-[45%] md:w-[30%] bg-gradient-to-r from-green-400 via-green-500 to-green-600 p-2 bg-white rounded-lg shadow-md">
                 <i class="${competence.icon} text-xl sm:text-4xl mr-2 md:mr-4"></i>
                 <span class="text-[13px] md:text-lg font-semibold">${competence.name}</span>
               </li>
