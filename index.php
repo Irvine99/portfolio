@@ -8,6 +8,7 @@
                 <?php include './templates/index/01_logo.php' ?>
                 <?php include './templates/index/02_Intro.php' ?>
                 <?php include './templates/index/03_Description.php' ?>
+                <?php include './templates/index/08_Competences.php' ?>
                 
             </div>
             <?php include './templates/index/04_Projets.php' ?>
