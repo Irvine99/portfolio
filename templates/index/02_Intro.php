@@ -1,4 +1,4 @@
-<div class="flex flex-col text-white w-[50%] mt-[160px]  min-[400px]:text-[30px] md:text-[50px] lg:text-[60px] xl:text-[80px] max-w-[1440px] md:leading-14 lg:leading-16 xl:leading-20  ">
+<div class="flex flex-col text-white w-[50%] mt-[160px] text-[20px]  min-[400px]:text-[30px] md:text-[50px] lg:text-[60px] xl:text-[80px] max-w-[1440px] md:leading-14 lg:leading-16 xl:leading-20  ">
     <!-- <div class=" ">Mon nom est</div> -->
     <div class="  font-bold">GERARDIN</div>
     <div class="  font-bold">Stanislas</div>
