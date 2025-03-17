@@ -1,5 +1,5 @@
   <!-- Conteneur principal -->
-  <div class="mb-[100px] mt-[800px] sm:mt-[10px] mr-[20px]">
+  <div class="mb-[100px] mt-[800px] min-[400px]:mt-[500px] sm:mt-[10px] mr-[20px]">
     <h1 class="text-2xl text-white font-bold  mb-16">Liste des Compétences</h1>
     
     <!-- Liste des compétences Web -->

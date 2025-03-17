@@ -9,7 +9,8 @@
                 <?php include './templates/index/02_Intro.php' ?>
                 <?php include './templates/index/03_Description.php' ?>
                 <?php include './templates/index/08_Competences.php' ?>
-                
+        
+
             </div>
             <?php include './templates/index/04_Projets.php' ?>
             <?php include './templates/index/05_Séparation.php' ?>
