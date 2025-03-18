@@ -35,5 +35,5 @@
 </div>
 <!--  -->
 <div class="flex justify-center mt-[100px]">
-    <button class="rounded-full text-[#10B52E] border-[#10B52E] border-[1px] p-4 font-bold ">Charger plus de projet</button>
+    <button class="rounded-full text-[#10B52E] border-[#10B52E] border-[1px] p-4 font-bold ">Charger plus de projets</button>
 </div>
