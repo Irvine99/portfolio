@@ -1,3 +1,5 @@
+
+<?php include './templates/projet/00_Text.php' ?>
 <?php include './templates/head.php' ?>
 
 <body class="custom-gradient reset">
@@ -9,7 +11,7 @@
             <?php include './templates/projet/03_Description.php' ?>
             <?php include './templates/projet/04_Projet.php' ?>
             <?php include './templates/projet/05_Copyright.php' ?>
-           
+
         </div>
     </div>
     <?php include './templates/script.php' ?>

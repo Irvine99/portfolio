@@ -5,7 +5,7 @@
 <div class="flex flex-col gap-12">
     <?php
     $projects = [
-        ["name" => "HTML", "description" => "Bally Website Research", "link" => "../../projet.php", "image" => "../../src/svg/card.svg"],
+        ["name" => "HTML", "description" => "Bally Website Research", "link" => "index.php?page=projet", "image" => "../../src/svg/card.svg"],
         ["name" => "CSS", "description" => "Bally Website Research", "link" => "../../projet.php", "image" => "../../src/svg/card.svg"],
         ["name" => "JS", "description" => "Bally Website Research", "link" => "../../projet.php", "image" => "../../src/svg/card.svg"],
         ["name" => "Tailwind", "description" => "Bally Website Research", "link" => "../../projet.php", "image" => "../../src/svg/card.svg"]

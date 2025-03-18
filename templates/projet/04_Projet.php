@@ -3,15 +3,6 @@
     <div class="text-[60px] font-bold text-white">Projets</div>
 </div>
 <div class="flex flex-col gap-12">
-    <?php
-    $projects = [
-        ["name" => "HTML", "description" => "Bally Website Research", "link" => "../../projet.php", "image" => "../../src/svg/card.svg"],
-        ["name" => "CSS", "description" => "Bally Website Research", "link" => "../../projet.php", "image" => "../../src/svg/card.svg"],
-        ["name" => "JS", "description" => "Bally Website Research", "link" => "../../projet.php", "image" => "../../src/svg/card.svg"],
-        ["name" => "Tailwind", "description" => "Bally Website Research", "link" => "../../projet.php", "image" => "../../src/svg/card.svg"]
-    ];
-    ?>
-
     <div class="mt-[50px] flex flex-col lg:flex-row lg:items-center justify-center items-center xl:mx-[100px] lg:mx-[50px] gap-12 lg:gap-20 flex-wrap">
         <?php foreach ($projects as $project): ?>
             <div class="flex xl:w-[40%] lg:w-[45%] md:h-[200px] xl:h-[250px] md:w-[75%] w-[75%] mb-8 lg:mb-0">
