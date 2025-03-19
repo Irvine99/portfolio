@@ -15,7 +15,7 @@
 
     <div class="justify-center items-center mx-auto mt-12 flex flex-wrap lg:flex-nowrap lg:mx-[50px] gap-8">
         <div class="flex flex-col h-full w-full lg:w-[70%] xl:w-[70%]">
-            <img src=<?php echo $description['card_01'] ?> alt="" class="w-full h-auto rounded-[20px]">
+            <img src=<?php echo $description['card_01'] ?> alt="" class="w-full h-auto border-[#10B52E] border-[2px] rounded-[20px]">
         </div>
         <div class="mx-[20px]"></div>
         <div class="flex flex-col w-full lg:w-[70%] xl:w-[70%] m-0 p-0">
@@ -33,14 +33,14 @@
         </div>
         <div class="mx-[20px]"></div>
         <div class="flex flex-col w-full lg:w-[70%] xl:w-[70%]">
-            <img src=<?php echo $description['card_02'] ?> alt="" class="w-full h-auto rounded-[20px]">
+            <img src=<?php echo $description['card_02'] ?> alt="" class="w-full h-auto border-[#10B52E] border-[2px] rounded-[20px]">
         </div>
     </div>
 
     <!--  -->
 
-    <div class="flex justify-center mt-[100px] mt-12">
+    <!-- <div class="flex justify-center mt-[100px] mt-12">
         <button class="bg-[#10B52E] rounded-full px-[42px] py-[14px] hover:bg-[#68DF7E] transform duration-800 ease-in-out">Voir le site</button>
-    </div>
+    </div> -->
 
 </div>
