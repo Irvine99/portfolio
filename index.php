@@ -10,7 +10,7 @@ $page = isset($_GET['page']) ? $_GET['page'] : 'home'; // Par défaut, on affich
 // Charger la page spécifique en fonction de la valeur de "page"
 switch ($page) {
     case 'projet':
-        include('page/projet.php');
+        include('page/projet/nmap/nmap.php');
         break;
     case 'contact':
         include('pages/contact.php');
