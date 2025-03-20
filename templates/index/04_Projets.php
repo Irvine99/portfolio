@@ -23,8 +23,8 @@
                         <img src="./src/svg/arrow.svg" alt="arrow" class="xl:w-[64px] xl:h-[64px] lg:w-[48px] lg:h-[48px] md:h-[48px] md:w-[48px] h-[36px] w-[36px]">
                     </a>
                 </div>
-                <div class="flex md:ml-[50px] h-full w-full lg:items-center">
-                    <img src="<?php echo $project['image']; ?>" alt="card image" class="w-[250px] h-[250px] rounded-[20px] border-[2px] border-[#10B52E] object-cover">
+                <div class="flex md:ml-[50px] h-full  lg:items-center">
+                    <img src="<?php echo $project['image']; ?>" alt="card image" class="w-[150px] h-[150px] sm:w-[150px] sm:h-[150px] md:w-[200px] md:h-[150px] lg:w-[200px] lg:h-[200px] rounded-[20px] border-[2px] border-[#10B52E] object-cover">
                 </div>
             </div>
         <?php endforeach; ?>
