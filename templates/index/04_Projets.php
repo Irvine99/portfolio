@@ -6,9 +6,8 @@
     <?php
     $projects = [
         ["name" => "Nmap", "description" => "Scan Réseau", "link" => "index.php?page=nmap", "image" => "../src/jpg/nmap.jpg"],
-        ["name" => "Dashboard", "description" => "Application visuel réseau", "link" => "index.php?page=dashboard", "image" => "../src/png/dashboard.png"],
-        ["name" => "JS", "description" => "Bally Website Research", "link" => "../../projet.php", "image" => "../../src/svg/card.svg"],
-        ["name" => "Tailwind", "description" => "Bally Website Research", "link" => "../../projet.php", "image" => "../../src/svg/card.svg"]
+        ["name" => "Dashboard", "description" => "Application visuel réseau", "link" => "index.php?page=dashboard", "image" => "../src/jpg/dashboard.jpg"],
+
     ];
     ?>
 
@@ -25,7 +24,7 @@
                     </a>
                 </div>
                 <div class="flex md:ml-[50px] h-full w-full lg:items-center">
-                    <img src="<?php echo $project['image']; ?>" alt="card image" class="w-auto h-[100%] rounded-[20px] border-[2px] border-[#10B52E] object-cover">
+                    <img src="<?php echo $project['image']; ?>" alt="card image" class="w-[250px] h-[250px] rounded-[20px] border-[2px] border-[#10B52E] object-cover">
                 </div>
             </div>
         <?php endforeach; ?>

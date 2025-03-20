@@ -27,7 +27,7 @@ Les résultats sont mis à jour en temps réel et présentés sous forme de grap
 Répartition des Ports Ouverts : Un graphique en camembert affiche la répartition des ports ouverts à travers toutes les machines scannées.
 Total des Machines : Le nombre total de machines scannées est affiché pour donner une idée rapide de la taille du réseau examiné.
 Le tableau met à jour automatiquement ces informations selon les filtres appliqués, offrant ainsi une vue détaillée et dynamique de l'état du réseau.",
-    'card_01' => '/src/png/dashboard01.png',
+    'card_01' => '../src/png/dashboard01.png',
     'card_02' => '../src/png/dashboard02.png'
 ];
 
