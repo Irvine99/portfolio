@@ -56,3 +56,18 @@ $seahawksNester = [
         'communication' => 'Communication avec les clients Harvester via GitLab runner en SSH.'
     ]
 ];
+
+$seahawksGitLab = [
+    'name' => 'GitLab',
+    'type' => 'Serveur',
+    'features' => [
+        'Consultation des Informations Remontées : L\'application web Seahawks Nester offre une interface centralisée permettant aux administrateurs de consulter les informations collectées par les clients Harvester. Cette fonctionnalité permet une surveillance continue et en temps réel des données réseau, facilitant ainsi la prise de décision stratégique. Les informations remontées incluent des détails sur les machines connectées, les ports ouverts, et d\'autres métriques réseau critiques. Grâce à cette visibilité accrue, les équipes IT peuvent rapidement identifier les tendances, détecter les anomalies et optimiser les performances du réseau. De plus, avec notre GitLab désormais hébergé sur une machine virtuelle dédiée, nous garantissons une meilleure gestion des versions et une intégration continue plus fluide, renforçant ainsi la fiabilité et la sécurité de notre infrastructure.',
+        'Surveillance de l\'État des Sondes et Rapports de Scan Réseau : La plateforme Seahawks Nester assure une surveillance complète de l\'état des sondes déployées sur le réseau, fournissant des rapports détaillés sur les scans réseau effectués. Les administrateurs peuvent visualiser l\'état actuel de chaque sonde, vérifier l\'historique des scans, et accéder à des rapports détaillés qui incluent des analyses approfondies des résultats. Cette fonctionnalité est essentielle pour garantir la fiabilité et l\'intégrité des opérations réseau, en permettant une réponse rapide aux incidents et une planification proactive des maintenances. L\'intégration avec notre GitLab sur une nouvelle machine virtuelle permet une mise à jour plus rapide et plus sécurisée des sondes, assurant ainsi que les dernières fonctionnalités et correctifs sont toujours disponibles.',
+    ],
+    'deployment' => [
+        'method' => 'Hébergé sur une machine virtuelle dédiée dans le datacenter de NFL IT.',
+        'communication' => 'Communication sécurisée avec les clients Harvester et Nester via SSH.'
+    ]
+];
+
+];
