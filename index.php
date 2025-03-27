@@ -15,6 +15,9 @@ switch ($page) {
     case 'dashboard':
         include('page/projet/dashboard/dashboard.php');
         break;
+    case 'seahawks':
+        include('page/projet/seahawks/homepage.php');
+        break;
     case 'contact':
         include('pages/contact.php');
         break;
