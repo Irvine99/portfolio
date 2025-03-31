@@ -1,9 +1,9 @@
   <!-- Conteneur principal -->
-  <div class="mb-[100px] mt-[800px] min-[400px]:mt-[500px] sm:mt-[10px] mr-[20px] ">
+  <div class="mb-[100px]  min-[400px]:mt-[500px] sm:mt-[10px] mr-[20px] ">
 
 
       <!-- Liste des compétences Web -->
-      <div class="mb-12 ">
+      <div class="mb-12 mt-12 ">
           <h2 class="text-xl font-semibold mb-4 text-white">Compétences Web</h2>
           <ul class="flex gap-4 flex-wrap">
               <script>
