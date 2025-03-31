@@ -5,9 +5,8 @@
 <div class="flex flex-col gap-12">
     <?php
     $projects = [
-        ["name" => "Nmap", "description" => "Scan Réseau", "link" => "index.php?page=nmap", "image" => "../src/jpg/nmap.jpg"],
-        ["name" => "Dashboard", "description" => "Application visuel réseau", "link" => "index.php?page=dashboard", "image" => "../src/jpg/dashboard.jpg"],
         ["name" => "Seahwaks", "description" => "Application visuel réseau", "link" => "index.php?page=seahawks", "image" => "../src/jpg/dashboard.jpg"],
+            ["name" => "Seahwaks", "description" => "Application visuel réseau", "link" => "index.php?page=seahawks", "image" => "../src/jpg/dashboard.jpg"],
 
     ];
     ?>

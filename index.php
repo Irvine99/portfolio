@@ -9,18 +9,11 @@ $page = isset($_GET['page']) ? $_GET['page'] : 'home'; // Par défaut, on affich
 
 // Charger la page spécifique en fonction de la valeur de "page"
 switch ($page) {
-    case 'nmap':
-        include('page/projet/nmap/nmap.php');
-        break;
-    case 'dashboard':
-        include('page/projet/dashboard/dashboard.php');
-        break;
+    // SEAHAWKS
     case 'seahawks':
         include('page/projet/seahawks/homepage.php');
         break;
-    case 'contact':
-        include('pages/contact.php');
-        break;
+
     case 'home':
     default:
         include('page/homepage.php');
@@ -29,4 +22,3 @@ switch ($page) {
 
 // Inclure le pied de page commun
 include('includes/footer.php');
-?>
