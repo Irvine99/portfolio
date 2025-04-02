@@ -2,6 +2,7 @@
   "dependencies": {
     "@tailwindcss/cli": "^4.0.14",
     "dash": "^4.8.0",
-    "tailwindcss": "^4.0.14"
+    "tailwindcss": "^4.0.14",
+    "tkinter": "^0.0.2-security"
   }
 }

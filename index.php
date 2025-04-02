@@ -13,6 +13,15 @@ switch ($page) {
     case 'seahawks':
         include('page/projet/seahawks/homepage.php');
         break;
+    case 'nmap_Intro':
+        include('page/projet/seahawks/homepage.php');
+        break;
+    case 'nmap_Test':
+        include('page/projet/seahawks/test.php');
+        break;
+    case 'nmap_Conclusion':
+        include('page/projet/seahawks/conclusion.php');
+        break;
 
     case 'home':
     default:

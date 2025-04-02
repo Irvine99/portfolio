@@ -15,10 +15,9 @@
                     <?php include './templates/viewProjet/05_Seahawks_Nester.php' ?>
                     <?php include './templates/viewProjet/06_Seahawks_GitLab.php' ?>
                 </div>
-
-
             </div>
         </div>
+        
         <?php include './templates/script.php' ?>
 </body>
 
