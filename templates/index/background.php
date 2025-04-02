@@ -17,7 +17,7 @@
         <img src="./src/png/multiplanet.png" alt="" class="w-[150px] h-[500px]  md:w-[300px] md:h-[1000px] opacity-50 md:opacity-100 ">
     </div>
     <!-- GreenStar placement -->
-    <div class="absolute top-0 left-0 ml-[280px] mt-[3600px] lg:mt-[3493px] md:mt-[3793px] ">
+    <div class="absolute top-0 left-0 ml-[280px] mt-[3600px] lg:mt-[3693px] md:mt-[3793px] ">
         <img src="./src/svg/greenDot.svg" alt="" class="lg:w-[54px] lg:h-[54px] md:w-[42px] md:h-[42px] w-[27px] h-[27px]">
     </div>
     <div class="absolute top-0 left-0 ml-[1106px] mt-[3854px] ">

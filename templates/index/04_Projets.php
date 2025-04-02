@@ -11,25 +11,28 @@
     ];
     ?>
 
-    <div class="mt-[50px] flex flex-col lg:flex-row lg:items-center justify-center items-center xl:mx-[100px] lg:mx-[50px] gap-12 lg:gap-20 flex-wrap">
-        <?php foreach ($projects as $project): ?>
-            <div class="flex xl:w-[40%] lg:w-[45%] md:h-[200px] xl:h-[250px] md:w-[55%] w-[75%] mb-8 lg:mb-0">
-                <div class="flex flex-col h-auto justify-between w-[50%]">
-                    <div class="text-[#10B52E] xl:text-[30px] lg:text-[20px] md:text-[18px]"><?php echo $project['name']; ?></div>
-                    <div class="text-white text-[20px] xl:text-[40px] lg:text-[30px] md:text-[30px] leading-8 md:leading-10 lg:leading-8 xl:leading-10">
-                        <?php echo $project['description']; ?>
-                    </div>
-                    <a href="<?php echo $project['link']; ?>">
-                        <img src="./src/svg/arrow.svg" alt="arrow" class="xl:w-[64px] xl:h-[64px] lg:w-[48px] lg:h-[48px] md:h-[48px] md:w-[48px] h-[36px] w-[36px]">
-                    </a>
-                </div>
-                <div class="flex md:ml-[50px] h-full  lg:items-center">
-                    <img src="<?php echo $project['image']; ?>" alt="card image" class="w-[150px] h-[150px] sm:w-[150px] sm:h-[150px] md:w-[200px] md:h-[150px] lg:w-[200px] lg:h-[200px] rounded-[20px] border-[2px] border-[#10B52E] object-cover">
-                </div>
+<div class="mt-[50px] flex flex-col lg:flex-row lg:items-center justify-center items-center xl:mx-[100px] lg:mx-[50px] gap-12 lg:gap-20 flex-wrap">
+    <?php foreach ($projects as $project): ?>
+        <div class="flex flex-col w-[90%] sm:w-[80%] md:w-[60%] lg:w-[45%] xl:w-[40%] mb-8 lg:mb-0 bg-[#ffffff]/5 shadow-[#10B52E] hover:shadow-xl transition-shadow duration-300 rounded-[20px] ">
+            <!-- Image en haut de la carte -->
+            <div class="w-full h-[200px] lg:h-[250px] rounded-t-[20px] overflow-hidden">
+                <img src="<?php echo $project['image']; ?>" alt="card image" class="w-full h-full object-cover">
             </div>
-        <?php endforeach; ?>
+            <!-- Contenu de la carte -->
+            <div class="flex flex-col p-6">
+                <div class="text-[#10B52E] text-[20px] xl:text-[30px] mb-2"><?php echo $project['name']; ?></div>
+                <div class="text-white text-[16px] xl:text-[20px] lg:text-[18px] leading-8 mb-4">
+                    <?php echo $project['description']; ?>
+                </div>
+                <a href="<?php echo $project['link']; ?>" class="flex items-end gap-2  mt-4">
+                    <img src="./src/svg/arrow.svg" alt="arrow" class="w-[36px] h-[36px] lg:w-[48px] lg:h-[48px] xl:w-[50px] xl:h-[50px] transition-transform transform hover:scale-110">
+                    <div class="text-[#10B52E]">voir plus</div>
+                </a>
+            </div>
+        </div>
+    <?php endforeach; ?>
+</div>
 
-    </div>
 
 </div>
 <!--  -->
