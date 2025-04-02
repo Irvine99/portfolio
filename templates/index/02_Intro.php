@@ -14,13 +14,17 @@
 </div>
 <!-- button -->
 <div class="flex gap-[24px] mt-[30px]  max-w-[1440px] mx-auto">
-    <button class="px-6 py-3 font-bold rounded-[60px] bg-gradient-to-r from-[#68DF7E] to-[#10B52E] transition duration-500 ease-in hover:opacity-80">
-        A propos de moi
-    </button>
+    <a href="#apropos">
+        <button class="px-6 py-3 font-bold rounded-[60px] border-1 border-[#10B52E] bg-gradient-to-r from-[#68DF7E] to-[#10B52E] transition duration-500 ease-in hover:opacity-80">
+            A propos de moi
+        </button>
+    </a>
 
-    <button class="px-6 py-3 text-[#10B52E] font-bold rounded-[60px] border-4 border-[#10B52E] ">
-        Contact
-    </button>
+    <a href="#contact">
+        <button class="px-6 py-3 text-[#10B52E] font-bold rounded-[60px] border-1 border-[#10B52E] hover:bg-[#10B52E] hover:text-white transition duration-500 ease-in">
+            Contact
+        </button>
+    </a>
 </div>
 <div class=" mt-[50px] max-w-[1440px] mx-auto">
     <img src="./src/svg/vectorGreen.svg" alt="" class="">

@@ -1,4 +1,4 @@
-<div class="flex">
+<div id="contact" class="flex">
     <div class="flex w-full items-center flex-col">
         <div class="text-[#10B52E] text-[20px] font-bold">Interessé ?</div>
         <div class="text-[60px] leading-14 text-white font-bold">Parlons de <br> votre projet</div>
