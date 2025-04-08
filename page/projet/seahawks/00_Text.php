@@ -48,8 +48,8 @@ $seahawksNester = [
     'name' => 'Seahawks Nester',
     'type' => 'Serveur',
     'features' => [
-    'Consultation des Informations Remontées : L\'application web Seahawks Nester offre une interface centralisée permettant aux administrateurs de consulter les informations collectées par les clients Harvester. Cette fonctionnalité permet une surveillance continue et en temps réel des données réseau, facilitant ainsi la prise de décision stratégique. Les informations remontées incluent des détails sur les machines connectées, les ports ouverts, et d\'autres métriques réseau critiques. Grâce à cette visibilité accrue, les équipes IT peuvent rapidement identifier les tendances, détecter les anomalies et optimiser les performances du réseau.',
-    'Surveillance de l\'État des Sondes et Rapports de Scan Réseau : La plateforme Seahawks Nester assure une surveillance complète de l\'état des sondes déployées sur le réseau, fournissant des rapports détaillés sur les scans réseau effectués. Les administrateurs peuvent visualiser l\'état actuel de chaque sonde, vérifier l\'historique des scans, et accéder à des rapports détaillés qui incluent des analyses approfondies des résultats. Cette fonctionnalité est essentielle pour garantir la fiabilité et l\'intégrité des opérations réseau, en permettant une réponse rapide aux incidents et une planification proactive des maintenances.'
+        'Consultation des Informations Remontées : L\'application web Seahawks Nester offre une interface centralisée permettant aux administrateurs de consulter les informations collectées par les clients Harvester. Cette fonctionnalité permet une surveillance continue et en temps réel des données réseau, facilitant ainsi la prise de décision stratégique. Les informations remontées incluent des détails sur les machines connectées, les ports ouverts, et d\'autres métriques réseau critiques. Grâce à cette visibilité accrue, les équipes IT peuvent rapidement identifier les tendances, détecter les anomalies et optimiser les performances du réseau.',
+        'Surveillance de l\'État des Sondes et Rapports de Scan Réseau : La plateforme Seahawks Nester assure une surveillance complète de l\'état des sondes déployées sur le réseau, fournissant des rapports détaillés sur les scans réseau effectués. Les administrateurs peuvent visualiser l\'état actuel de chaque sonde, vérifier l\'historique des scans, et accéder à des rapports détaillés qui incluent des analyses approfondies des résultats. Cette fonctionnalité est essentielle pour garantir la fiabilité et l\'intégrité des opérations réseau, en permettant une réponse rapide aux incidents et une planification proactive des maintenances.'
     ],
     'deployment' => [
         'method' => 'Hébergé dans le datacenter de NFL IT à Roubaix.',
@@ -70,3 +70,17 @@ $seahawksGitLab = [
     ]
 ];
 
+// seahawk_Test
+$seahawksTest = [
+    'titre' => 'Scanner et Visualisez Votre Réseau en Temps Réel : Outils Complétés pour une Sécurité Maximale',
+
+    'features' => 'Découvrez deux puissants outils pour analyser, surveiller et sécuriser votre réseau. Le premier script vous permet de réaliser un scan réseau détaillé pour détecter les hôtes actifs, leurs ports ouverts, et la latence, avec une interface graphique intuitive pour visualiser les résultats. Le second outil vous offre un tableau de bord interactif pour analyser les données XML des scans réseau, afficher des statistiques sur les ports ouverts et les machines scannées, et appliquer des filtres dynamiques. Ces deux solutions combinées permettent une gestion réseau optimale et une sécurité renforcée en temps réel.',
+
+    'nmap_Introduction_part1' => "Bienvenue sur notre Dashboard de Visualisation des Scans Réseau !",
+
+    'nmap_Introduction_part2' => "Cet outil vous permet de télécharger les résultats d'un scan réseau au format XML et de visualiser, analyser et filtrer les données de manière intuitive.",
+
+    'nmap_Introduction_part3' => "Grâce à un tableau de bord interactif, vous pouvez facilement examiner les appareils détectés sur votre réseau.",
+
+    'nmap_Introduction_part4' => "Analysez les ports ouverts et obtenez un aperçu détaillé des performances de votre infrastructure."
+];

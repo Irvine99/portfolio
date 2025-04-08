@@ -7,7 +7,8 @@
         <div class="relative min-h-[879px] z-10">
             <div class="ml-[40px] md:ml-[50px] lg:ml-[100px] xl:ml-[155px]">
                 <?php include './templates/index/01_logo.php' ?>
-                <?php include './templates/seahawk_test/01_test.php' ?>
+                <?php include './templates/seahawk_test/01_Presentation.php' ?>
+                <?php include './templates/seahawk_test/02_Introduction.php' ?>
    
                 <div class="mr-[20px]">
 
