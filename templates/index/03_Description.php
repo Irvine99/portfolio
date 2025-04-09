@@ -9,7 +9,7 @@
 
 
             </div>
-            <div class="flex grow-1 ml-[50px] lg:ml-[40px] items-center md:w-[65%] mt-[40px] md:mt-0">
+            <div class="flex grow-1 ml-[10px] lg:ml-[40px] items-center md:w-[65%] mt-[40px] md:mt-0">
                 <img src="./src/png/profil.png" alt="" class="lg:w-[420px] lg:h-[420px] h-[250px] w-[250px] md:h-[350px] md:w-[350px]  rounded-full object-cover border-[4px] border-[#10B52E]">
             </div>
         </div>
