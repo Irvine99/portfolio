@@ -13,7 +13,7 @@
 </div>
 
 <!-- Section de présentation -->
-<div class="flex flex-col mt-[50px] gap-4">
-    <div class="text-white text-3xl font-bold"><?php echo $seahawksTest['titre'] ?></div>
-    <div class="text-white w-[90%] lg:w-[75%]"><?php echo $seahawksTest['features'] ?></div>
+<div class="flex flex-col w-full mt-[50px] w-[75%] gap-4">
+    <div class="text-white text-3xl w-[80%] font-bold"><?php echo $seahawksTest['titre'] ?></div>
+    <div class="text-white w-[80%] lg:w-[85%]"><?php echo $seahawksTest['features'] ?></div>
 </div>

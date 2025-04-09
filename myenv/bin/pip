@@ -1,4 +1,4 @@
-#!/home/gerardin_stanislas/projet/portfolio/myenv/bin/python3
+#!/home/stan/projet/portfolio/portfolio/myenv/bin/python3
 # -*- coding: utf-8 -*-
 import re
 import sys
