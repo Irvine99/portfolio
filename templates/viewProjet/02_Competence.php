@@ -1,5 +1,5 @@
-<div class="text-white mr-[20px] lg-mr-0 text-3xl font-bold mb-[50px] mt-[100px]"><?php echo $textCompetence['titre'] ?></div>
-<div class="flex mr-[25px] flex-col lg:flex-row lg:flex-wrap w-auto gap-2  ">
+<div class="text-white  lg-mr-0 text-xl lg:text-3xl font-bold mb-[50px] mt-[100px]"><?php echo $textCompetence['titre'] ?></div>
+<div class="flex  flex-col lg:flex-row lg:flex-wrap w-auto gap-2  ">
     <!-- card -->
     <div class="">
         <div class="bg-[#191C36] w-full h-auto lg:w-[350px] lg:h-[250px] p-4 rounded-lg border-white/20 border-[1px] drop-shadow-[0_15px_15px_rgba(240,240,240,0.09)] w-[100%] h-[100px] flex ">

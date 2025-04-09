@@ -26,10 +26,10 @@
     </div>
 </div>
 
-</div>
+
 
 <!-- Section de présentation -->
-<div class="flex flex-col w-full mt-[50px] mr-[20px]  lg:w-[75%] gap-4">
-    <div class="text-white text-xl md:text-3xl w-full lg:w-[80%] font-bold"><?php echo $seahawksTest['titre'] ?></div>
-    <div class="text-white w-full lg:w-[80%] lg:w-[85%]"><?php echo $seahawksTest['features'] ?></div>
+<div class="flex flex-col w-full mt-[50px] gap-4">
+    <div class="text-white text-xl md:text-3xl w-full  font-bold"><?php echo $seahawksTest['titre'] ?></div>
+    <div class="text-white w-full "><?php echo $seahawksTest['features'] ?></div>
 </div>

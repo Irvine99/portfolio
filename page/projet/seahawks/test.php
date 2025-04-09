@@ -5,7 +5,7 @@
     <div class="max-w-[1440px] w-full mx-auto">
         <?php include './templates/viewProjet/background.php' ?>
         <div class="relative min-h-[879px] z-10">
-            <div class="mx-[20px] md:ml-[50px] lg:ml-[100px] xl:ml-[155px]">
+            <div class="mx-[20px] md:mx-[50px] lg:mx-[100px] xl:mx-[155px]">
                 <?php include './templates/index/01_logo.php' ?>
                 <?php include './templates/seahawk_test/01_Presentation.php' ?>
                 <?php include './templates/seahawk_test/02_Introduction.php' ?>
@@ -16,8 +16,8 @@
                 <div id="dashboard" style="display:none;">
                     <?php include './templates/seahawk_test/05_Dashboard.php' ?>
                 </div>
-                <?php include './templates/seahawk_test/04_Nmap.php' ?>
-                <div class="mr-[20px]">
+             
+                <div class="">
                 </div>
             </div>
         </div>
