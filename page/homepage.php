@@ -1,6 +1,7 @@
 <?php include './templates/head.php' ?>
 
 <body class="custom-gradient">
+   
     <div class="max-w-[1440px] w-full mx-auto">
         <?php include './templates/index/background.php' ?>
         <div class="relative min-h-[879px] z-10">
