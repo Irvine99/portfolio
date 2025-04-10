@@ -27,7 +27,7 @@
     <!-- 1 -->
     <div class=" flex flex-col lg:flex-row bg-white/5 rounded-[10px] mt-5">
         <div class="w-full block lg:hidden  "><img class="rounded-r-lg  " src="../../src/png/scan.png" alt="" srcset=""></div>
-        <div class="text-white justify-center w-[80%] flex flex-col my-[10px] md:my-1 gap-4 px-5">
+        <div class="text-white justify-center md:w-[80%] flex flex-col my-[10px] md:my-1 gap-4 px-5">
             <div class="text-xl md:text-2xl">1. Scan du Réseau Local</div>
             <div class="">
                 Grâce à la technologie Nmap, notre outil permet un scan complet de votre réseau local pour détecter les hôtes actifs et leur activité. En quelques secondes, vous identifiez tous les appareils connectés à votre réseau, leur adresse IP, leur nom d’hôte, leur latence, ainsi que les ports ouverts et leurs versions de "harvesters".
@@ -40,8 +40,8 @@
 
     <!-- 2 -->
     <div class=" flex flex-col lg:flex-row w-full bg-white/5 rounded-[10px]   mt-5">
-        <div class="lg:w-[50%] "><img class="rounded-l-lg h-full w-auto" src="../../src/png/scan.png" alt="" srcset=""></div>
-        <div class="text-white  justify-center flex flex-col w-[80%] my-[10px] md:my-1 gap-1 px-5">
+        <div class="lg:w-[50%] "><img class="rounded-l-lg h-full w-auto  object-cover" src="../../src/png/scan.png" alt="" srcset=""></div>
+        <div class="text-white  justify-center flex flex-col md:w-[80%] my-[10px] md:my-1 gap-1 px-5">
             <div class="text-xl text-2xl">2. Analyse des Hôtes Actifs</div>
             <div class="">
                 Vous pouvez obtenir des informations détaillées sur chaque appareil connecté à votre réseau, incluant :
@@ -59,8 +59,8 @@
 
     <!-- 3 -->
     <div class="flex flex-col lg:flex-row w-full bg-white/5 rounded-[10px]   mt-5">
-        <div class="w-full block lg:hidden"><img class="rounded-r-lg " src="../../src/png/scan.png" alt="" srcset=""></div>
-        <div class="text-white justify-center my-[10px] w-[80%] md:my-0 flex flex-col lg:w-[80%] my-[10px] md:my-5  gap-2 px-5">
+        <div class="w-full block lg:hidden"><img class="rounded-r-lg h-full w-auto " src="../../src/png/scan.png" alt="" srcset=""></div>
+        <div class="text-white justify-center my-[10px] md:w-[80%] md:my-0 flex flex-col  my-[10px] md:my-5  gap-2 px-5">
             <div class="text-xl text-2xl">3. Exportation des Résultats en XML</div>
             <div class="">
                 Une fois l’analyse terminée, vous avez la possibilité de <span class="text-[#10B52E] font-bold">sauvegarder les résultats dans un fichier XML</span> structuré pour archiver vos scans ou les partager avec votre équipe.
@@ -75,8 +75,8 @@
 
     <!-- 4 -->
     <div class="flex flex-col lg:flex-row w-full bg-white/5 rounded-[10px]   mt-5">
-        <div class=" lg:w-[50%] "><img class="rounded-r-lg " src="../../src/png/scan.png" alt="" srcset=""></div>
-        <div class="text-white  justify-center my-[10px] md:my-0 flex flex-col lg:w-[80%] px-5 my-[10px] md:my-5  gap-2">
+        <div class=" lg:w-[50%] "><img class="rounded-l-lg h-full w-auto  object-cover " src="../../src/png/scan.png" alt="" srcset=""></div>
+        <div class="text-white  justify-center my-[10px] md:my-0 flex flex-col md:w-[80%] px-5 my-[10px] md:my-5  gap-2">
             <div class="text-xl md:text-2xl">4. Interface Intuitive et Facile à Utiliser</div>
 
             <li class="">Une <span class="text-[#10B52E] font-bold">interface graphique propre et conviviale</span> avec une <span class="font-bold">barre de progression</span> barre de progression pour suivre l’avancement du scan.</li>
@@ -90,7 +90,7 @@
     <!-- 5 -->
     <div class=" flex flex-col lg:flex-row w-full bg-white/5 rounded-[10px] mt-5">
         <div class="w-full  lg:hidden"><img class="rounded-r-lg " src="../../src/png/scan.png" alt="" srcset=""></div>
-        <div class="text-white justify-center flex flex-col lg:w-[80%] my-[10px] md:my-0 gap-2 my-[10px] md:my-5 px-5">
+        <div class="text-white justify-center flex flex-col md:w-[80%] my-[10px] md:my-0 gap-2 my-[10px] md:my-5 px-5">
             <div class="text-xl md:text-2xl">5. Support Multiplateforme</div>
             <div class="">
                 Notre outil fonctionne sur <span class="text-[#10B52E] font-bold">Windows</span> et <span class="text-[#10B52E] font-bold">Linux</span>, ce qui permet de l'utiliser dans différents environnements sans soucis de compatibilité.
@@ -103,8 +103,8 @@
 
     <!-- 6 -->
     <div class="  flex flex-col lg:flex-row w-full bg-white/5 rounded-[10px] mt-5">
-        <div class="lg:w-[50%]  "><img class="rounded-r-lg " src="../../src/png/scan.png" alt="" srcset=""></div>
-        <div class="text-white justify-center flex flex-col lg:w-[80%] my-[10px] md:my-0 px-5 my-[10px] md:my-5  gap-2">
+        <div class="lg:w-[50%]  "><img class="rounded-l-lg h-full w-auto  object-cover " src="../../src/png/scan.png" alt="" srcset=""></div>
+        <div class="text-white justify-center flex flex-col md:w-[80%] my-[10px] md:my-0 px-5 my-[10px] md:my-5  gap-2">
             <div class="text-xl md:text-2xl">6. Mise à Jour et Améliorations</div>
             <div class=""> L'outil permet de vérifier les mises à jour pour garantir que vous utilisez toujours la version la plus récente, avec les dernières améliorations et fonctionnalités.</div>
         </div>

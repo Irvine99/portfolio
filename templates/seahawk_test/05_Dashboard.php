@@ -1,6 +1,6 @@
 <!-- Titre -->
 <div class="text-white mt-[100px]">
-    <div class="text-3xl font-bodld ">Présentation de l'outil de Dashboard Réseau - Visualisation des Scan Réseau</div>
+    <div class="text-xl lg::text-3xl font-bold ">Présentation de l'outil de Dashboard Réseau - Visualisation des Scan Réseau</div>
 </div>
 
 <!-- Image nmap -->
@@ -11,7 +11,7 @@
 <!-- Introduction -->
 <div class="text-white mt-[50px] flex flex-col">
     <div class="text-xl">Introduction</div>
-    <div class="flex flex-col mt-5 w-[75%] gap-1">
+    <div class="flex flex-col mt-5 lg:w-[75%] gap-1">
         <div class="">Bienvenue sur notre plateforme dédiée à la gestion, l'analyse et la sécurisation de vos réseaux.</div>
         <div class="">Notre outil de <span class="text-[#10B52E] font-bold">scan réseau professionnel</span> vous permet de réaliser des audits approfondis de vos infrastructures informatiques en quelques clics</div>
         <div class="">Que vous soyez responsable IT, administrateur système, ou consultant en sécurité, cet outil vous offre une solution complète pour explorer, analyser et sécuriser vos réseaux.</div>
@@ -25,20 +25,21 @@
 
 <div class="flex flex-col gap-5">
     <!-- 1 -->
-    <div class=" flex w-full bg-white/5 rounded-[10px] w-[75%]  mt-5">
-        <div class="text-white justify-center flex flex-col w-[80%]  gap-4 px-5">
-            <div class="text-2xl">1. Charger un Fichier XML de Scan Réseau</div>
+    <div class=" flex flex-col lg:flex-row w-full bg-white/5 rounded-[10px] mt-5">
+        <div class="w-full block lg:hidden  "><img class="rounded-r-lg  " src="../../src/png/scan.png" alt="" srcset=""></div>
+        <div class="text-white justify-center flex flex-col md:w-[80%] my-[10px] md:my-1  gap-4 px-5">
+            <div class="text-xl lg:text-2xl">1. Charger un Fichier XML de Scan Réseau</div>
             <div class="">
                 Vous pouvez facilement charger un fichier XML contenant les résultats d'un scan réseau effectué par un autre outil ou une version précédente de ce tableau de bord. Le fichier doit inclure des informations telles que l'adresse IP des machines, leur nom d'hôte, leur latence et les ports ouverts.
             </div>
         </div>
-        <div class="w-[50%]"><img class="rounded-r-lg " src="../../src/png/scan.png" alt="" srcset=""></div>
+        <div class="w-[50%] lg:block hidden"><img class="rounded-r-lg" src="../../src/png/scan.png" alt="" srcset=""></div>
     </div>
 
     <!-- 2 -->
-    <div class=" flex w-full bg-white/5 rounded-[10px] w-[75%]  mt-5">
-        <div class="w-[50%]"><img class="rounded-l-lg" src="../../src/png/scan.png" alt="" srcset=""></div>
-        <div class="text-white justify-center flex flex-col w-[80%] px-5  gap-2">
+    <div class=" flex flex-col lg:flex-row w-full bg-white/5 rounded-[10px] mt-5">
+        <div class="lg:w-[50%] "><img class="rounded-l-lg h-full w-auto  object-cover" src="../../src/png/scan.png" alt="" srcset=""></div>
+        <div class="text-white justify-center flex flex-col md:w-[80%] my-[10px] md:my-1 px-5  gap-2">
             <div class="text-2xl">2. Filtres Dynamiques</div>
             <li class=""><span class="font-bold text-[#10B52E]">Filtrer par Port Ouvert :</span> Permet de sélectionner les ports spécifiques (comme SSH, HTTP, HTTPS, etc.) et de visualiser uniquement les appareils qui ont ces ports ouverts.</li>
             <li class=""><span class="font-bold text-[#10B52E]">Filtrer par Machine :</span> Vous pouvez filtrer les résultats par machine, vous permettant de voir uniquement les appareils d'intérêt.</li>
@@ -46,27 +47,29 @@
     </div>
 
     <!-- 3 -->
-    <div class=" flex w-full bg-white/5 rounded-[10px] w-[75%]  mt-5">
-        <div class="text-white justify-center flex flex-col w-[80%]  gap-2 px-5">
+    <div class="flex flex-col lg:flex-row w-full bg-white/5 rounded-[10px] mt-5">
+        <div class="w-full block lg:hidden  "><img class="rounded-r-lg  " src="../../src/png/scan.png" alt="" srcset=""></div>
+        <div class="text-white justify-center flex flex-col md:w-[80%] my-[10px] md:my-1  gap-2 px-5">
             <div class="text-2xl">3. Statistiques Visuelles et Graphiques</div>
             <div class=""> Le tableau de bord inclut un graphique interactif (graphique en camembert) pour afficher la <span class="font-bold text-[#10B52E]">répartition des ports ouverts</span> sur les machines détectées. Ce graphique vous aide à identifier rapidement quels ports sont les plus fréquemment utilisés ou exposés sur votre réseau.</div>
 
         </div>
-        <div class="w-[50%]"><img class="rounded-l-lg" src="../../src/png/scan.png" alt="" srcset=""></div>
+        <div class="w-[50%]"><img class="hidden lg:block rounded-l-lg" src="../../src/png/scan.png" alt="" srcset=""></div>
     </div>
 
     <!-- 4 -->
-    <div class=" flex w-full bg-white/5 rounded-[10px] w-[75%]  mt-5">
-        <div class="w-[50%]"><img class="rounded-l-lg" src="../../src/png/scan.png" alt="" srcset=""></div>
-        <div class="text-white justify-center flex flex-col w-[80%] px-5  gap-2">
+    <div class="flex flex-col lg:flex-row w-full bg-white/5 rounded-[10px] mt-5">
+        <div class="lg:w-[50%] "><img class="rounded-l-lg h-full w-auto  object-cover" src="../../src/png/scan.png" alt="" srcset=""></div>
+        <div class="text-white justify-center flex flex-col md:w-[80%] my-[10px] md:my-1 px-5  gap-2">
             <div class="text-2xl">4. Tableau des Machines</div>
             Un tableau détaillé affiche les informations de toutes les machines scannées, y compris le <span class="font-bold text-[#10B52E]">nom d'hôte, l'adresse IP, la latence (ms), et les ports ouverts.</span> Vous pouvez trier et filtrer les machines en fonction de ces critères.
         </div>
     </div>
 
     <!-- 5 -->
-    <div class=" flex w-full bg-white/5 rounded-[10px] w-[75%]  mt-5">
-        <div class="text-white justify-center flex flex-col w-[80%]  gap-2 px-5">
+    <div class=" flex flex-col lg:flex-row w-full bg-white/5 rounded-[10px] mt-5">
+        <div class="w-full block lg:hidden  "><img class="rounded-r-lg  " src="../../src/png/scan.png" alt="" srcset=""></div>
+        <div class="text-white justify-center flex flex-col md:w-[80%] my-[10px] md:my-1  gap-2 px-5">
             <div class="text-2xl">5. Statistiques en Temps Réel</div>
             <div class="">
                 Le dashboard affiche également le <span class="font-bold text-[#10B52E]">total des machines scannées</span> et met à jour le tableau en temps réel à mesure que vous appliquez des filtres.
@@ -75,13 +78,13 @@
 
 
         </div>
-        <div class="w-[50%]"><img class="rounded-l-lg" src="../../src/png/scan.png" alt="" srcset=""></div>
+        <div class="w-[50%]"><img class="hidden lg:block rounded-l-lg" src="../../src/png/scan.png" alt="" srcset=""></div>
     </div>
 
     <!-- 6 -->
-    <div class=" flex w-full bg-white/5 rounded-[10px] w-[75%]  mt-5">
-        <div class="w-[50%]"><img class="rounded-l-lg" src="../../src/png/scan.png" alt="" srcset=""></div>
-        <div class="text-white justify-center flex flex-col w-[80%] px-5  gap-2">
+    <div class="flex flex-col lg:flex-row w-full bg-white/5 rounded-[10px] mt-5">
+        <div class="lg:w-[50%] "><img class="rounded-l-lg h-full w-auto  object-cover" src="../../src/png/scan.png" alt="" srcset=""></div>
+        <div class="text-white justify-center flex flex-col md:w-[80%] my-[10px] md:my-1 px-5  gap-2">
             <div class="text-2xl">6. Interface Moderne et Interactive</div>
             <div class=""> Le design moderne, avec des éléments interactifs et réactifs, vous permet de naviguer facilement dans les résultats du scan réseau. Le tableau de bord est entièrement responsive et peut être consulté sur n'importe quel appareil.
             </div>
@@ -94,11 +97,11 @@
 </div>
 
 <!--  -->
-<div class="text-white text-3xl font-bold flex justify-center mb-10">Tout ce que Vous Devez Savoir sur Notre Outil</div>
+<div class="text-white  text-2xl lg:text-3xl font-bold flex justify-center mb-10">Tout ce que Vous Devez Savoir sur Notre Outil</div>
 <!-- 3 Cards -->
-<div class="text-white flex gap-8 ">
+<div class="text-white flex flex-col lg:flex-row items-center gap-8 ">
     <!-- 01_Cards -->
-    <div class="bg-white/5 rounded-[10px] p-4 w-[75%] mt-5 flex flex-col gap-4">
+    <div class="bg-white/5 rounded-[10px] p-4 lg:w-[75%] mt-5 flex flex-col gap-4">
         <div class="text-xl font-bold">Cas d'Utilisation :</div>
 
         <div class="flex gap-2 items-start">
@@ -121,7 +124,7 @@
     </div>
 
     <!-- 02_Cards -->
-    <div class="bg-white/5 rounded-[10px] p-4 w-[75%] mt-5 flex flex-col gap-4">
+    <div class="bg-white/5 rounded-[10px] p-4 lg:w-[75%] mt-5 flex flex-col gap-4">
         <div class="text-xl font-bold">Pourquoi Choisir Notre Dashboard Réseau ?</div>
 
 
@@ -179,6 +182,6 @@
 <div class="flex flex-col gap-4 my-[150px]">
     <div class="text-[#10B52E] font-bold text-2xl">Conclusion :</div>
     <div class="text-white">
-    Notre <span class="text-[#10B52E] font-bold">Dashboard de Visualisation des Scans Réseau</span> est un outil complet et puissant pour tous les professionnels des réseaux. Il vous permet de charger des fichiers XML, d'examiner les résultats de manière interactive et de filtrer les données en fonction des critères les plus importants pour votre réseau. Essayez-le dès aujourd'hui et prenez le contrôle total de la gestion de votre infrastructure réseau !
+        Notre <span class="text-[#10B52E] font-bold">Dashboard de Visualisation des Scans Réseau</span> est un outil complet et puissant pour tous les professionnels des réseaux. Il vous permet de charger des fichiers XML, d'examiner les résultats de manière interactive et de filtrer les données en fonction des critères les plus importants pour votre réseau. Essayez-le dès aujourd'hui et prenez le contrôle total de la gestion de votre infrastructure réseau !
     </div>
 </div>
