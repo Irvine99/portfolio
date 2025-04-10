@@ -15,7 +15,8 @@
                 </div>
                 <div id="dashboard" style="display:none;">
                     <?php include './templates/seahawk_test/05_Dashboard.php' ?>
-                </div>           
+                </div> 
+                   
                 <div class="">
                 </div>
             </div>

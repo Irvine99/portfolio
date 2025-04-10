@@ -119,9 +119,9 @@
 <!--  -->
 <div class="text-white  text-2xl lg:text-3xl font-bold flex justify-center mb-10">Tout ce que Vous Devez Savoir sur Notre Outil</div>
 <!-- 3 Cards -->
-<div class="text-white flex flex-col lg:flex-row items-center gap-8 ">
+<div class="text-white flex flex-col lg:flex-row items-stretch gap-8 h-auto">
     <!-- 01_Cards -->
-    <div class="bg-white/5 rounded-[10px] p-4 lg:w-[75%] mt-5 flex flex-col gap-4">
+    <div class="bg-white/5 rounded-[10px] p-4 lg:w-[75%] mt-5 flex flex-col gap-4 flex-1">
         <div class="text-xl font-bold">Cas d'Utilisation :</div>
 
         <div class="flex gap-2 items-start">
@@ -144,7 +144,7 @@
     </div>
 
     <!-- 02_Cards -->
-    <div class="bg-white/5 rounded-[10px] p-4 lg:w-[75%] mt-5 flex flex-col gap-4">
+    <div class="bg-white/5 rounded-[10px] p-4 lg:w-[75%] mt-5 flex flex-col gap-4 flex-1">
         <div class="text-xl font-bold">Pourquoi Choisir Notre Outil ?</div>
 
         <div class="">
