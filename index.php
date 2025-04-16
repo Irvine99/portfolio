@@ -19,7 +19,7 @@ switch ($page) {
         include('page/projet/seahawks/test.php');
         break;
     case 'nmap_Conclusion':
-        include('page/projet/seahawks/conclusion.php');
+        include('page/projet/seahawks/install.php');
         break;
 
     case 'home':
