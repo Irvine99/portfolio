@@ -1,5 +1,5 @@
   <!-- Conteneur principal -->
-  <div class="mb-[100px]  min-[400px]:mt-[500px] sm:mt-[10px] mr-[20px] ">
+  <div class="mb-[100px]  min-[640px]:mt-[500px] sm:mt-[10px] mr-[20px] ">
 
 
       <!-- Liste des compétences Web -->
