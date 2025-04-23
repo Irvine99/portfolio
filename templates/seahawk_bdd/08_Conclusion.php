@@ -1,1 +1,1 @@
-<div class="text-white mt-10"><?php echo $achitectureConclusion ?></div>
+<div class="text-white my-10"><?php echo $achitectureConclusion ?></div>
