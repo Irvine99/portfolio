@@ -12,6 +12,7 @@ switch ($page) {
     case 'seahawks':
         include('page/projet/seahawks/homepage.php');
         break;
+    // Nmap
     case 'nmap_Intro':
         include('page/projet/seahawks/homepage.php');
         break;
@@ -21,7 +22,10 @@ switch ($page) {
     case 'nmap_Conclusion':
         include('page/projet/seahawks/install.php');
         break;
-
+    // TLS & AES
+    case 'bdd_Intro':
+        include('page/projet/bdd/introduction.php');
+        break;
     case 'home':
     default:
         include('page/homepage.php');
@@ -30,4 +34,3 @@ switch ($page) {
 
 // Inclure le pied de page commun
 include('includes/footer.php');
-?>

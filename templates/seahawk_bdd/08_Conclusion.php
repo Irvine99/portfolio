@@ -1,0 +1,1 @@
+<div class="text-white mt-10"><?php echo $achitectureConclusion ?></div>

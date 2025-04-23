@@ -5,8 +5,8 @@
 <div class="flex flex-col gap-12">
     <?php
     $projects = [
-        ["name" => "Seahawks Monitoring", "description" => "Seahawks Monitoring est une solution complète de supervision réseau développée dans le cadre d'une certification professionnelle. Elle s'appuie sur deux outils complémentaires : Harvester, une application cliente de scan réseau avec interface graphique, et Nester, un serveur centralisé pour la visualisation des données. Le projet intègre des technologies comme Python, GitLab, SSH et l'intégration continue pour assurer sécurité et évolutivité. Cette solution offre un monitoring en temps réel, une gestion proactive des incidents et une amélioration des performances réseau.", "link" => "index.php?page=seahawks", "image" => "../src/jpg/dashboard.jpg"],
-        ["name" => "Seahwaks Monitoring", "description" => "Le projet 'Seahawks Monitoring centralise et sécurise les données des instances Harvester pour les franchises de la NFL. Il utilise le mirroring pour la haute disponibilité, TLS pour des communications sécurisées, et AES pour chiffrer les données sensibles. Un tableau de bord web permet la supervision et la maintenance à distance.", "link" => "index.php?page=seahawks", "image" => "../src/jpg/dashboard.jpg"],
+        ["name" => "Seahawks Monitoring", "title" => "Scanner & Dashboard","description" => "Seahawks Monitoring est une solution complète de supervision réseau développée dans le cadre d'une certification professionnelle. Elle s'appuie sur deux outils complémentaires : Harvester, une application cliente de scan réseau avec interface graphique, et Nester, un serveur centralisé pour la visualisation des données. Le projet intègre des technologies comme Python, GitLab, SSH et l'intégration continue pour assurer sécurité et évolutivité. Cette solution offre un monitoring en temps réel, une gestion proactive des incidents et une amélioration des performances réseau.", "link" => "index.php?page=seahawks", "image" => "../src/jpg/dashboard.jpg"],
+        ["name" => "Seahwaks Monitoring", "title" => "Sécurisation BDD","description" => "Le projet 'Seahawks Monitoring centralise et sécurise les données des instances Harvester pour les franchises de la NFL. Il utilise le mirroring pour la haute disponibilité, TLS pour des communications sécurisées, et AES pour chiffrer les données sensibles. Un tableau de bord web permet la supervision et la maintenance à distance.", "link" => "index.php?page=bdd_Intro", "image" => "../src/png/bdd.png"],
 
     ];
     ?>
@@ -25,6 +25,9 @@
                     <!-- Titre -->
                     <div class="text-[#10B52E] text-[20px] xl:text-[30px] mb-2 font-semibold">
                         <?php echo $project['name']; ?>
+                    </div>
+                    <div class="text-[#10B52E] text-[14px] xl:text-[20px] mb-2 font-semibold">
+                        <?php echo $project['title']; ?>
                     </div>
 
                     <!-- Description avec transition pour agrandissement -->
