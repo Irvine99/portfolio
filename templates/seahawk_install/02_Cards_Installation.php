@@ -32,7 +32,7 @@
                 <p class="text-zinc-300 text-sm">
                     Procédure d'installation par le biais du terminal des dépendances nécessaires pour le bon fonctionnement de l'application.
                 </p>
-                <button onclick="toggleVisibility('scanner_install')" class="mt-auto bg-purple-600 hover:bg-purple-700 text-white rounded-xl px-4 py-2 flex items-center w-max">
+                <button onclick="toggleVisibility('scanner_install')" class="mt-auto bg-[#10B52E] hover:bg-[#10B52E]/50 text-white rounded-xl px-4 py-2 flex items-center w-max">
                     Explorer
                     <svg class="ml-2 w-4 h-4" fill="none" stroke="currentColor" stroke-width="2"
                         viewBox="0 0 24 24">
@@ -57,7 +57,7 @@
                 <p class="text-zinc-300 text-sm">
                     Procédure d'installation par le biais du terminal des dépendances nécessaires pour le bon fonctionnement de l'application.
                 </p>
-                <button onclick="toggleVisibility('graph_install')" class="mt-auto bg-purple-600 hover:bg-purple-700 text-white rounded-xl px-4 py-2 flex items-center w-max">
+                <button onclick="toggleVisibility('graph_install')" class="mt-auto bg-[#10B52E] hover:bg-[#10B52E]/50 text-white rounded-xl px-4 py-2 flex items-center w-max">
                     Explorer
                     <svg class="ml-2 w-4 h-4" fill="none" stroke="currentColor" stroke-width="2"
                         viewBox="0 0 24 24">
