@@ -10,7 +10,7 @@
     </a>
 
     <!-- Présentation -->
-    <a href="index.php?page=nmap_Intro" class="flex items-center gap-1.5 px-3 py-2 rounded-lg text-white cursor-pointer transition duration-500 ease-in-out hover:bg-white/25 focus:outline-none focus:bg-[#1a1f24] relative group 
+    <a href="index.php?page=bdd_Intro" class="flex items-center gap-1.5 px-3 py-2 rounded-lg text-white cursor-pointer transition duration-500 ease-in-out hover:bg-white/25 focus:outline-none focus:bg-[#1a1f24] relative group 
       <?php echo ($page == 'bdd_Intro') ? 'bg-[#10B52E]' : ''; ?>">
       <i class="fas fa-chalkboard-teacher w-6 h-6"></i>
       <span>Présentation</span>
@@ -18,7 +18,7 @@
     </a>
 
     <!-- Script -->
-    <a href="index.php?page=nmap_Test" class="flex items-center gap-1.5 px-3 py-2 rounded-lg text-white cursor-pointer transition duration-500 ease-in-out hover:bg-white/25 focus:outline-none focus:bg-[#1a1f24] relative group 
+    <a href="index.php?page=bdd_Script" class="flex items-center gap-1.5 px-3 py-2 rounded-lg text-white cursor-pointer transition duration-500 ease-in-out hover:bg-white/25 focus:outline-none focus:bg-[#1a1f24] relative group 
       <?php echo ($page == 'bdd_Test') ? 'bg-[#10B52E]' : ''; ?>">
       <i class="fas fa-code w-6 h-6"></i>
       <span>Script</span>
@@ -26,7 +26,7 @@
     </a>
 
     <!-- Installation -->
-    <a href="index.php?page=nmap_Conclusion" class="flex items-center gap-1.5 px-3 py-2 rounded-lg text-white cursor-pointer transition duration-500 ease-in-out hover:bg-white/25 focus:outline-none focus:bg-[#1a1f24] relative group 
+    <a href="index.php?page=bdd_Installation" class="flex items-center gap-1.5 px-3 py-2 rounded-lg text-white cursor-pointer transition duration-500 ease-in-out hover:bg-white/25 focus:outline-none focus:bg-[#1a1f24] relative group 
       <?php echo ($page == 'bdd_Conclusion') ? 'bg-[#10B52E]' : ''; ?>">
       <i class="fas fa-cogs w-6 h-6"></i>
       <span>Installation</span>

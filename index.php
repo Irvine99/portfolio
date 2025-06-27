@@ -26,6 +26,9 @@ switch ($page) {
     case 'bdd_Intro':
         include('page/projet/bdd/introduction.php');
         break;
+    case 'bdd_Script':
+        include('page/projet/bdd/script.php');
+        break;
     case 'home':
     default:
         include('page/homepage.php');

@@ -82,5 +82,16 @@ $achitectureConclusion = "Cette architecture permet de répondre aux besoins de 
 
 // Chapter Two: TLS/AES
 
-$contextChapterTwo = "Chapitre 2 : Mise en Place du Mirroring, TLS et AES";
+$bddScript = [
+    'title' => "Mise en place d’un système TLS + AES + Mirroring",
+    'features' => "Afin de garantir la <strong class='text-[#10B52E]'>confidentialité, la résilience et l’intégrité</strong> des données au sein de notre infrastructure, un mécanisme combiné de <strong class='text-[#10B52E]'>TLS (Transport Layer Security)</strong>, de chiffrement <strong class='text-[#10B52E]'>AES (Advanced Encryption Standard)</strong> et de <strong class='text-[#10B52E]'    >mirroring de base de données</strong> a été mis en place.",
+];
+
+$tls = [
+    'image' =>'',
+    'title' =>'',
+    'name' =>'',
+    'description' =>'',
+    'link' =>'',
+]
 ?>
